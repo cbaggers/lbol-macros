@@ -1,4 +1,4 @@
 ;;;; package.lisp
 
 (defpackage #:lbol-macros
-  (:use #:cl))
+  (:use #:cl :named-readtables :alexandria))
