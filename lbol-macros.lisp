@@ -134,7 +134,7 @@
   (symbolicate
    name
    :/
-   (format nil "~a" arity)))
+   (write-to-string arity)))
 
 (defmacro define-afun (name &body clauses)
   `(progn
